@@ -1,4 +1,4 @@
-Get some clarity in the Deribit casino by adding the USD value to the output of the BTC and ETH Value column.
+Chrome Extension to get some clarity in the Deribit casino by adding the USD value to the output of the BTC and ETH Value column.
 
 Add the USD value to the output of the BTC Value column on default UI on Deribit.
 Will possibly update to the pro UI when out of beta. 
