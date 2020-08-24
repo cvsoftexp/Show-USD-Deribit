@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    
+    "name": "Deribit show USD",
+    "description": "Get some clarity in the casino by adding the USD value to the output of the BTC and ETH Value column on Deribit.",
+    
+    "version": "1.0.0000",
+    
+    "content_scripts": [{
+        "matches": [
+            "https://www.deribit.com/*"
+        ],
+        "js": [
+            "content.js"
+        ],
+        "run_at": "document_end"
+    }]
+}
