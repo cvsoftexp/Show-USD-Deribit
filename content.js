@@ -1,13 +1,3 @@
-var getJSON = function(url, callback) {
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', url, true);
-    xhr.responseType = 'json';
-    xhr.onload = function() {
-      callback((xhr.status === 200)?null:xhr.status, xhr.response);
-    };
-    xhr.send();
-};
-
 var BTCtoUSD = 0;
 var ETHtoUSD = 0;
 function getUSDvalue() {
